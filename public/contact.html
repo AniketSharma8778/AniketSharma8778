@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Team One Risk</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a href="/" class="brand">TEAM<span>ONE</span>RISK</a>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <nav id="mainNav">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/contact.html" class="btn active">Get Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Get in Touch</h1>
+      <p class="lead">Share your requirement and our risk advisor will connect with you shortly.</p>
+      <form id="contactForm" class="card form-grid mt-2">
+        <input type="text" name="name" placeholder="Full Name *" required />
+        <input type="email" name="email" placeholder="Work Email *" required />
+        <input type="tel" name="phone" placeholder="Phone Number" />
+        <input type="text" name="company" placeholder="Company Name" />
+        <select name="service" required>
+          <option value="">Select Service *</option>
+          <option>Corporate Insurance</option>
+          <option>Cyber Risk</option>
+          <option>Claims Management</option>
+          <option>Risk Audit</option>
+          <option>Employee Benefits</option>
+        </select>
+        <textarea name="message" rows="5" placeholder="Write your requirement *" required></textarea>
+        <button type="submit" class="btn">Submit Inquiry</button>
+      </form>
+      <p id="contactMessage" class="mt-1"></p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-simple">
+      <p>© 2026 Team One Risk. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
